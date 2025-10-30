@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Marwadi University</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f6fa;
+      color: #222;
+    }
+    header {
+      background: #1e3c72;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    header h1 { margin: 0; font-size: 32px; }
+    header p { margin: 5px 0; font-size: 16px; }
+
+    .top-section {
+      position: relative;
+      width: 100%;
+      height: 350px;
+      overflow: hidden;
+    }
+    .top-section img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .inquiry-form {
+      position: absolute;
+      top: 50%;
+      right: 50px;
+      transform: translateY(-50%);
+      width: 300px;
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    }
+    .inquiry-form h3 {
+      text-align: center;
+      color: #1e3c72;
+      margin-bottom: 15px;
+      font-size: 18px;
+    }
+    .inquiry-form label {
+      font-size: 14px;
+      font-weight: bold;
+      margin-top: 8px;
+      display: block;
+    }
+    .inquiry-form input,
+    .inquiry-form textarea {
+      width: 100%;
+      padding: 8px;
+      margin-top: 4px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 14px;
+    }
+    .inquiry-form button {
+      width: 100%;
+      padding: 10px;
+      border: none;
+      background: #1e3c72;
+      color: white;
+      font-weight: bold;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    .info-section {
+      max-width: 1000px;
+      margin: 30px auto;
+      padding: 20px;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+    }
+    .info-section h2 {
+      text-align: center;
+      color: #1e3c72;
+      margin-bottom: 15px;
+    }
+    .info-section p, .info-section ul {
+      font-size: 15px;
+      line-height: 1.6;
+      margin: 10px 20px;
+    }
+
+    section {
+      max-width: 1100px;
+      margin: 30px auto;
+      padding: 20px;
+    }
+    section h2 {
+      text-align: center;
+      color: #1e3c72;
+      margin-bottom: 20px;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      justify-content: center;
+    }
+    .gallery img {
+      width: 230px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 6px;
+    }
+
+    .contact {
+      background: #1e3c72;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 30px;
+    }
+    .contact p { margin: 4px 0; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Marwadi University</h1>
+    <p>Rajkot, Gujarat | Excellence in Education & Innovation</p>
+  </header>
+
+  <div class="top-section">
+    <img src="https://i.ytimg.com/vi/9qhF1he3xyo/maxresdefault.jpg" alt="College">
+    <div class="inquiry-form">
+      <h3>Inquiry Form</h3>
+      <form>
+        <label>Name:</label>
+        <input type="text" placeholder="Enter your name">
+        <label>Email:</label>
+        <input type="email" placeholder="Enter your email">
+        <label>Message:</label>
+        <textarea rows="4" placeholder="Type your message..."></textarea>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="info-section">
+    <h2>Vision</h2>
+    <p>To be a globally recognized institution known for quality education, cutting-edge research, and social contribution through innovation.</p>
+  </div>
+
+  <div class="info-section">
+    <h2>Mission</h2>
+    <p>To nurture students with knowledge, skills, and values, empowering them to excel in their careers and contribute to the betterment of society.</p>
+  </div>
+
+  <div class="info-section">
+    <h2>Program Specific Outcomes (PSO)</h2>
+    <ul>
+      <li>Apply engineering knowledge in real-world applications.</li>
+      <li>Proficiency in modern tools, technologies, and programming languages.</li>
+      <li>Design sustainable and innovative solutions.</li>
+      <li>Exhibit communication, leadership, and teamwork skills.</li>
+      <li>Commitment to lifelong learning and ethical practice.</li>
+    </ul>
+  </div>
+
+  <div class="info-section">
+    <h2>Courses Offered</h2>
+    <ul>
+      <li>B.Tech in Computer Science, AI, Data Science</li>
+      <li>B.Tech in Electronics & Communication</li>
+      <li>B.Tech in Mechanical Engineering</li>
+      <li>MBA in Finance, Marketing, HR</li>
+      <li>Integrated Law Programs (LLB & LLM)</li>
+      <li>Pharmacy Programs (B.Pharm, M.Pharm)</li>
+    </ul>
+  </div>
+
+  <section>
+    <h2>College Images</h2>
+    <div class="gallery">
+      <img src="https://tse1.mm.bing.net/th/id/OIP.BI1WNiziuzfdy1NDsJT_3gHaE8?pid=Api&P=0&h=180" alt="college0">
+      <img src="https://tse2.mm.bing.net/th/id/OIP.r4TGirlhQ8L1n2-Q15kg8wHaE8?pid=Api&P=0&h=180" alt="College1">
+      <img src="https://tse3.mm.bing.net/th/id/OIP.uZNZ8KrUeeV732K_IJY_BgHaFj?pid=Api&P=0&h=180" alt="College2">
+      <img src="https://tse1.mm.bing.net/th/id/OIP.2Pu2mInB1MnnT71B5rzGMgHaEK?pid=Api&P=0&h=180" alt="College3">
+    </div>
+  </section>
+
+  <section>
+    <h2>Events</h2>
+    <div class="gallery">
+      <img src="https://tse1.mm.bing.net/th/id/OIP.Oq9kr8QZdqDBxFIJSglo7gAAAA?pid=Api&P=0&h=180" alt="event1">
+      <img src="https://tse3.mm.bing.net/th/id/OIP.kU8tsTXwSAnsK0M-3r51GgHaEK?pid=Api&P=0&h=180" alt="event2">
+      <img src="https://tse4.mm.bing.net/th/id/OIP.-i87lIUopkUeP0pPlBe2ngHaE8?pid=Api&P=0&h=180" alt="event3">
+      <img src="https://tse1.mm.bing.net/th/id/OIP.fAFRjgnQIzNFYMHxnMfJngAAAA?pid=Api&P=0&h=180" alt="Event4">
+    </div>
+  </section>
+
+  <section>
+    <h2>Top Recruiters</h2>
+    <div class="gallery">
+      <img src="https://tse4.mm.bing.net/th/id/OIP.3meF7mC6eHnDmied3AsDTwHaFj?pid=Api&P=0&h=180" alt="Google">
+      <img src="https://tse4.mm.bing.net/th/id/OIP.H63DLtN_u0eVJWeJLlzOdwHaDt?pid=Api&P=0&h=180" alt="Company1">
+      <img src="https://tse2.mm.bing.net/th/id/OIP.nDdw9cc1ll-HMlptuvsSPwHaHa?pid=Api&P=0&h=180" alt="Company2">
+      <img src="https://tse2.mm.bing.net/th/id/OIP.RD-i9XYRQuHAXbxvKW2JDQHaEK?pid=Api&P=0&h=180" alt="Company3">
+    </div>
+  </section>
+
+  <div class="contact">
+    <h2>Contact Us</h2>
+    <p>📍 Rajkot, Gujarat</p>
+    <p>☎ +91 1234567890</p>
+    <p>✉ info@mycollege.ac.in</p>
+    <p>&copy; 2025 Marwadi University. All Rights Reserved.</p>
+  </div>
+
+</body>
+</html>
